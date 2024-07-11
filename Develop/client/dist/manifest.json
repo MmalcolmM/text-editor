@@ -31,8 +31,8 @@
       "type": "image/png"
     }
   ],
-  "name": "Text Editor",
-  "short_name": "T.E",
+  "name": "Just Another Text Editor",
+  "short_name": "JATE",
   "orientation": "portrait",
   "display": "standalone",
   "start_url": "./",
