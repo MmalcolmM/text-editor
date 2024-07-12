@@ -28,7 +28,7 @@ export const putDb = async (content) => {
 export const getDb = async () => {
   console.log('GET from the database');
 
-  const textEditorDB = await openDB('jate', 1);
+  const itorDB = await openDB('jate', 1);
   const transVariable = textEditorDB.transaction('jate', 'readonly');
   const storeVariable = transVariable.objectStore('jate');
   const request = storeVariable.getAll(); 
